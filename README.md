@@ -4,7 +4,7 @@
 
 Before building your project using this tool, please ensure you have a Unity Editor installed on your machine. For IOS build, please install Xcode on your Mac first. For Android build, please install Android Studio first.
 
-Next, please open the configuration file *config.json* to determine all build settings for your project:
+Next, please first clone this repository into the Assets/Editor folder of your project. Then open the configuration file *config.json* to edit the build settings for your project:
 
 - The *buildScene* should be the name of the target unity scene (Currently supports only one target scene per build). 
 
